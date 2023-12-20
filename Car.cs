@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace Ex30_2023_template
 {
-    internal class Student:Person//学生
+    internal class Car:Thing//自動車
     {
-        public Student(DateTime bd, string n, float w = 0, float h = 0, float d = 0) 
-            : base(bd, n, w, h, d)
+        public Car(string n, float w = 0, float h = 0, float d = 0,
+            float we = 0)
+            : base(n, w, h, d, we)
         {
+
         }
     }
 }
